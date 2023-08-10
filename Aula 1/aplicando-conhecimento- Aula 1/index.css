@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 4em;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+ul li {
+  padding-left: 2em;
+  text-decoration: none;
+}
+
+/*Main*/
+.img-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*Section*/
+.title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Article */
+.art-container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  margin-left: 10em;
+}
