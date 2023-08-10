@@ -1,4 +1,4 @@
-#Fundamentos WEB 💻
+# Fundamentos WEB 💻
 
 - 📝 Matéria do 1º período do curso de Análise e Desenvolvimento de Sistemas que faço na universidade Mackenzie.
 - 📚 Usando esse repositório para deixar documentado evoluções, estudos, projetos feitos para o curso e entre outros.
