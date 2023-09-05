@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em 4em;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+ul li {
+  padding-left: 2em;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title img {
+  width: 100vw;
+  height: 60vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.img-2 img {
+  width: 45%;
+}
+
+.img-3 img {
+  width: 50%;
+}
+
+.card {
+  width: 40vw;
+}
+
+section {
+  margin: 3em;
+}

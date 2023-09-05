@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário | T.I</title>
+    <link rel="stylesheet" href="./pag3.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia da Informação</h1>
+      <nav class="navbar">
+        <ul class="nav-ul">
+          <li><a href="./index.html"> Home </a></li>
+          <li><a href="./pag2.html"> Acervos </a></li>
+          <li><a href="./pag3.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="title-form">
+      <h2>Formulário de Contato</h2>
+    </div>
+    <form action="">
+      <div class="nome-form">
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          id="fname"
+          name="name"
+          placeholder="Digite seu nome"
+          required
+          autofocus
+        />
+        <label for="lname">Sobrenome:</label>
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Digite seu sobrenome"
+          required
+        />
+      </div>
+      <div class="info">
+        <label for="tel">Telefone: </label>
+        <input
+          type="tel"
+          id="tel"
+          pattern="^d2\d{5}[-\s]\d{4}$"
+          placeholder="(XX)XXXXX-XXXX"
+        />
+        <label for="email">E-mail: </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Digite seu e-mail"
+          required
+        />
+      </div>
+      <div class="bday">
+        <label for="bday">Data de Nascimento:</label>
+        <input type="date" od="bday" />
+      </div>
+      <div class="areas-ti">
+        <p>Escolha as áreas de interesse:</p>
+        <input type="radio" id="front-end" name="area-ti" />
+        <label for="front-end">Front-End</label>
+        <input type="radio" id="back-end" name="area-ti" />
+        <label for="back-end">Back-End</label>
+        <input type="radio" id="dev-ops" name="area-ti" />
+        <label for="dev-ops">Dev Ops</label>
+        <input type="radio" id="engenheiro" name="area-ti" />
+        <label for="engenheiro">Engenheiro de Software</label>
+      </div>
+      <div class="text">
+        <label for="text">Comentário:</label>
+        <textarea name="coment" id="coment" cols="50" rows="10"></textarea>
+      </div>
+      <div class="submit">
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Apagar" />
+      </div>
+    </form>
+  </body>
+</html>
