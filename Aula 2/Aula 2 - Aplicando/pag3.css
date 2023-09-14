@@ -1,3 +1,6 @@
+* {
+  background-color: rgb(247, 240, 240);
+}
 header {
   display: flex;
   flex-direction: row;
@@ -32,4 +35,13 @@ form {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.submit:hover {
+  color: white;
+  background-color: rgb(87, 83, 83);
+}
+.reset:hover {
+  color: white;
+  background-color: red;
 }

@@ -1,0 +1,31 @@
+A.	Aplicar um efeito de recuo de 40px à primeira linha de cada parágrafo. Em seguida, aplicar um efeito de espaçamento entre letras de 5px nos parágrafos e 8px no título.
+
+
+
+B.	Aplicar no texto contido na célula de cabeçalho da tabela um alinhamento no centro. No texto contido nas células de dados da tabela, aplicar efeito de alinhamento à direita. Os textos em parágrafos comuns devem ficar justificados.
+
+
+
+C.	Usando a lista de nomes abaixo, capitalizar os nomes e pôr em maiúsculo todo o texto do cabeçalho.
+
+
+
+
+D.	Observe o código CSS fornecido abaixo.
+
+#A, #B { width: 100px; height: 100px; }
+
+Aplique-o no arquivo html descrito a seguir e coloque uma borda vermelha (red), sólida, de 2px.
+
+
+
+
+E.	Observe o código CSS abaixo:
+
+#A, #B, #C, #D { width: 100px; height: 100px; }
+
+#esq {float: left; }
+
+#dir {float: right; }
+
+Aplique-o no arquivo html descrito a seguir:
